@@ -1,0 +1,399 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.p1
+{
+    width: 100%;
+    background-color: rgb(100, 151, 180);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.port
+{
+    width: 700px;
+    height: 100%;
+    display: flex;
+    align-items: center;    
+    padding-left: 10%;
+    font-size: 7vh;
+}
+
+.d1
+{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.u1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.projects-child
+{
+    display: none;
+}
+
+li{
+    padding: 20px;
+}
+
+a
+{
+    color: rgb(211, 234, 241) ;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: blueviolet;
+}
+
+.u1 :hover .projects-child
+{
+    display: block;
+    position: absolute;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.sec
+{
+    
+    width: 100%;
+    height: 360px;
+    background-image: url(./leaf.jpg);
+    position: sticky;
+    background-size: cover;
+    display: flex; box-sizing: border-box;
+    justify-content: left;
+    align-items: center;
+}
+
+.s1
+{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+   
+}
+
+.d3
+{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.child-d3
+{
+    height: 4px;
+    background-color: rgb(119, 118, 118);
+    width: 80px;
+    margin-left: 145px;
+}
+
+.d2
+{
+    color: whitesmoke;
+}
+
+main
+{
+    background-color: rgb(27, 25, 29);
+}
+
+.s2
+{
+    display: flex;
+    padding: 150px;
+}
+
+.d4
+{
+    width: 400px;
+    /* background-image: url(./myself.jpg); */
+    /* background-color: red; */
+    /* background-size: cover; */
+}
+
+.iii
+{
+    width: 350px;
+    height: 300px;
+}
+
+.a1
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: antiquewhite;
+    /* padding-top: 150px; */
+    padding-left: 140px;
+}
+
+.a01:hover
+{
+    transition: all;
+    transition-duration: 2s;
+    transition-property: all;
+    transform: var(--big-color);
+    color: #40A8C5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    /* padding-top: 150px;
+    padding-left: 140px; */
+}
+
+.a2
+{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.a3
+{
+    padding-top: 30px;
+    padding-left: 140px;
+}
+
+.b1
+{
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 12px 38px;
+    border-radius: 8px;
+    border-color: rgb(168, 26, 26);
+    background-color: transparent;
+}
+
+.b1:hover
+{
+    transform: scale(1.10);
+}
+
+.s3
+{
+    display: flex;
+}
+
+.d6
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 20%;
+    padding-top: 50px;
+    padding-left: 140px;
+    font-size: 50px;
+    color: whitesmoke;
+    
+}
+
+.d61{
+    height: 2px;
+    width: 60px;
+    background-color: rgb(119, 118, 118);
+    margin: 25px 0px;
+}
+
+.d7
+{
+    width: 70%;
+    color: whitesmoke;
+    padding: 50px 100px 0px 90px;
+}
+
+.s4
+{
+    display: flex;
+}
+
+.sep{
+    height: 3px;
+    width: 80vw;
+    margin: 60px auto ;
+    background-color: rgb(28, 37, 37);
+}
+
+.d8
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 600px;
+    color: whitesmoke;
+}
+
+.eds{
+    height: 2px;
+    background-color: rgb(119, 118, 118);
+    width: 280px;
+    margin-bottom: 50px;
+}
+
+.s5
+{
+    width: 100%;
+    height: 350px;
+    background-color: transparent;
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d9
+{
+    width: 550px;
+    height: 130px;
+    margin-left: 65px;
+    background-color: rgb(35, 33, 37);
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+img
+{
+    width: 55PX;
+    height: 50px;
+}
+
+.d10
+{
+    width: 50%;
+    font-size: xx-large;
+    color: whitesmoke;
+    /* background-color: red; */
+}
+
+.d11
+{
+    width: 100%;
+    font-size: small;
+    color: whitesmoke;
+    /* background-color: yellow; */
+}
+
+.s6
+{
+    width: 100%;
+    /* height: 250px; */
+    background-color: rgb(47, 45, 49);
+}
+
+.d12
+{
+    color: red;
+    margin-left: 65px;
+    padding-top: 80px;
+}
+
+.d13
+{
+    margin-top: 10px;
+    display: flex;
+    /* background-color: blueviolet; */
+    padding-left: 65px;
+    gap: 51%;
+}
+
+.d14
+{
+    font-size: 35px;
+    color: whitesmoke;
+    /* background-color: aqua; */
+}
+
+.contact
+{
+    background-color: transparent;
+    cursor: pointer;
+    color: whitesmoke;
+    border-radius: 7px;
+}
+
+.d16
+{
+    width: 1160px;
+    height: 2px;
+    margin: 40px 0px 0px 67px;
+    background-color: rgb(119, 118, 118);
+}
+
+.d17
+{
+    padding: 68px;
+    display: flex;
+    gap: 100px;
+}
+
+.s7
+{
+    padding: 68px;
+    gap: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+.d18
+{
+    width: 220px;
+    font-size: 7vh;
+    color: whitesmoke;
+    display: flex;
+    justify-content: left;
+    /* background-color: aqua; */
+}
+
+.d19
+{
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 40px;
+    font-size: 20px;
+}
+
+.logo
+{
+    width: 20px;
+    height: 20px;
+}
+
+.d20
+{
+    font-size: 23px;
+    color: rgb(114, 112, 116);
+    /* background-color: blue; */
+}
+
+.d21
+{
+    /* background-color: red; */
+    width: 200px;
+}
